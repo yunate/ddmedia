@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="decode\dddecode_impl_.cpp">
+      <Filter>decode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="ddmedia.h" />
+    <ClInclude Include="decode\dddecode_impl_.h">
+      <Filter>decode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="encode">
+      <UniqueIdentifier>{b4daf77d-b923-42ac-a6cd-1f8e7d327d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="decode">
+      <UniqueIdentifier>{fd721ee8-83e0-4f0d-b848-cfe9e861ec0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
