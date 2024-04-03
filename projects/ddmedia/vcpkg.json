@@ -1,0 +1,22 @@
+{
+  "dependencies": [
+    {
+      "name": "ffmpeg",
+      "default-features": false,
+      "features": [
+        "avcodec",
+        "avdevice",
+        "avfilter",
+        "avformat",
+        "swresample",
+        "swscale",
+		"nvcodec",
+        "amf",
+        "qsv",
+        "x264",
+        "x265"
+      ]
+    }
+  ]
+}
+
